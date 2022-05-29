@@ -1,0 +1,17 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION((''),'2;1');
+FILE_NAME('example','2008-06-30T',('GRA'), (''), 'Nothing', 'Nothing','');
+FILE_SCHEMA(('s'));
+ENDSEC;
+DATA;
+#1=A('chaine1',2.23E1, 7, .T., 2.25E0, #2, #2, .E2., (('s1', 's2'), ('s3', 's4')), ((#2, #3), (#4, #5)));
+#2=D(*);
+#3=D(*);
+#4=D(*);
+#5=D(*);
+#7=CLASSIFICATION_ASSIGNMENT(#8,(#1),'/IGNORE');
+#8=EXTERNAL_CLASS('/NULL','A','/IGNORE',#9);
+#9=EXTERNAL_CLASS_LIBRARY('urn:plcs:rdl:std','/IGNORE');
+ENDSEC;
+END-ISO-10303-21;

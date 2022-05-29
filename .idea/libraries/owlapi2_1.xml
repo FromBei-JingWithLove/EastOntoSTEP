@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="owlapi2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-oboparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-mansyntaxrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-change.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-debugging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-dig1_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-krssparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-mansyntaxparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-apibinding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-functionalparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfxmlrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-owlxmlparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-functionalrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-owlxmlrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-metrics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfxmlparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

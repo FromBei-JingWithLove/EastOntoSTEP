@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension id="menu.ImportP11File"
+              point="org.protege.editor.core.application.EditorKitMenuAction">
+       <name value="Import Part 11 file"/> 
+       <toolTip value="Import a STEP Part 11 file."/>
+       <class value="gov.nist.msid.ImportP11FileAction"/>
+       <path value="org.protege.editor.core.application.menu.FileMenu/SlotC-A"/>
+       <editorKitId value="IP11"/>
+   </extension>
+
+   <extension id="menu.ImportP21File"
+              point="org.protege.editor.core.application.EditorKitMenuAction">
+       <name value="Import Part 21 file"/> 
+       <toolTip value="Import a STEP Part 21 file."/>
+       <class value="gov.nist.msid.ImportP21FileAction"/>
+       <path value="org.protege.editor.core.application.menu.FileMenu/SlotC-B"/>
+       <editorKitId value="IP21"/>
+   </extension>
+   <extension id="menu.GetAssembly"
+              point="org.protege.editor.core.application.EditorKitMenuAction">
+       <name value="Get an assembly structure from a Part 21 file"/> 
+       <toolTip value="Get an assembly structure from a Part 21 file."/>
+       <class value="gov.nist.msid.GetAssemblyAction"/>
+       <path value="org.protege.editor.core.application.menu.FileMenu/SlotC-C"/>
+       <editorKitId value="GA"/>
+   </extension>
+</plugin>

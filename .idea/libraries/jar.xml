@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/stringtemplate-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/commons-lang-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/log4j-1.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/antlr-runtime-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/jsdai_runtime-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/jsdai_xim_full-1.128.100.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/module_arm-1.128.100.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/SExtended_dictionary_schema-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-apibinding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-change.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-debugging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-dig1_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-functionalparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-functionalrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-krssparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-mansyntaxparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-mansyntaxrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-metrics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-oboparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-owlxmlparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-owlxmlrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfxmlparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-rdfxmlrenderer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar/owlapi2.1/owlapi-util.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

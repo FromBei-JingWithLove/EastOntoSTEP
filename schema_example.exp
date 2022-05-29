@@ -1,0 +1,76 @@
+SCHEMA S;
+
+  ENTITY THING;
+  END_ENTITY;
+
+  ENTITY A SUBTYPE OF (B, C);
+    nombre : number;
+    booleen : Boolean;
+    treel : Treal;
+    entite : D;
+    selection : S;
+    enumer : E;
+    agr1 : List [1:?] of bag [1:?] of String;
+    agr2 : Set [1:?] of array [1:?] of D;
+  END_ENTITY;
+
+  ENTITY b SUBTYPE OF (THING);
+    Chaine: STRING;
+  END_ENTITY;
+
+  ENTITY C SUBTYPE OF (THING);
+    reel: Real;
+  END_ENTITY;
+
+  TYPE TReal = REAL;
+  END_TYPE;
+
+  ENTITY D SUBTYPE OF (THING);
+  END_ENTITY;
+
+  TYPE E = ENUMERATION OF
+    (e1,
+     e2);
+  END_TYPE; 
+
+  TYPE S = SELECT
+    (A, D);
+  END_TYPE;
+
+  ENTITY Classification_assignment;
+    assigned_class : Class;
+    items : SET [1:?] OF classification_item;
+    role : OPTIONAL STRING;
+  END_ENTITY;
+
+  TYPE classification_item = SELECT (A);
+  END_TYPE;
+
+  ENTITY Class
+    SUPERTYPE OF (ONEOF(Class_by_extension, Class_by_intension));
+    id : STRING;
+    name : STRING;
+    description : OPTIONAL STRING;
+  END_ENTITY;
+
+  ENTITY Class_by_extension
+    SUBTYPE OF (Class);
+  END_ENTITY;
+
+  ENTITY Class_by_intension
+    SUBTYPE OF (Class);
+  END_ENTITY;
+
+  ENTITY External_class
+    SUBTYPE OF (Class);
+    external_source : External_class_library;
+  END_ENTITY;
+
+  ENTITY External_class_library;
+    id : STRING;
+    description : OPTIONAL STRING;
+  END_ENTITY;
+
+
+
+END_SCHEMA; 
