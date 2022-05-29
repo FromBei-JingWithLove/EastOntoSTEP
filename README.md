@@ -2,7 +2,7 @@
 This is an extraction of OntoSTEP code that can run without painful process of finding jars and reading unfriendly docs.
 OntoSTEP is a plugin of Protégé, the source code is implemented by NIST. For detail please visit https://www.nist.gov/services-resources/software/ontostep-plugin
 # Usage
-Clone this repository and open it with IntelliJ IDEA and run TranslationTest.java.
+Clone this repository, open it with IntelliJ IDEA and run TranslationTest.java.
 # Details
 ## setup environment
 1. JDK. I used JDK17 and didn't test other versions. 
